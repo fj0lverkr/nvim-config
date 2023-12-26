@@ -14,6 +14,7 @@ return {
           delete = "SDelete",
           list = "SList",
         },
+        plugins = { delete_hidden_buffers = false },
       })
       require("telescope").load_extension("possession")
       require("lualine").setup({
