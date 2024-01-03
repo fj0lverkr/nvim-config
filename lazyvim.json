@@ -1,14 +1,10 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.formatting.prettier",
-    "lazyvim.plugins.extras.lang.typescript",
-    "lazyvim.plugins.extras.linting.eslint",
     "lazyvim.plugins.extras.lsp.none-ls",
-    "lazyvim.plugins.extras.ui.mini-starter",
-    "lazyvim.plugins.extras.util.project"
+    "lazyvim.plugins.extras.ui.mini-starter"
   ],
   "news": {
-    "NEWS.md": "2123"
+    "NEWS.md": "2191"
   },
   "version": 2
 }
