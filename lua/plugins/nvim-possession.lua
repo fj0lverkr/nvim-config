@@ -2,8 +2,7 @@ return {
   {
     "jedrzejboczar/possession.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
-    config = true,
-    init = function()
+    config = function()
       local function session_name()
         return require("possession.session").session_name or ""
       end
@@ -18,7 +17,7 @@ return {
       })
       require("telescope").load_extension("possession")
       require("lualine").setup({
-        sections = { lualine_b = { session_name } },
+        sections = { lualine_x = { session_name } },
       })
     end,
   },
