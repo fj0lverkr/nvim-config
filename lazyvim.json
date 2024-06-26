@@ -5,7 +5,11 @@
     "lazyvim.plugins.extras.lang.toml"
   ],
   "news": {
+<<<<<<< Updated upstream
     "NEWS.md": "6077"
+=======
+    "NEWS.md": "6258"
+>>>>>>> Stashed changes
   },
   "version": 6
 }
