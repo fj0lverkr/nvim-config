@@ -6,11 +6,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
-<<<<<<< Updated upstream
 vim.o.guifont = "FantasqueSansM Nerd Font:h12"
-=======
-vim.o.guifont = "FantasqueSansMono Nerd Font Mono:h12"
->>>>>>> Stashed changes
 vim.opt.linespace = 0
 
 -- Neovide settings
