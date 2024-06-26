@@ -6,8 +6,19 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
-vim.o.guifont = "FantasqueSansMono Nerd Font:h12"
+vim.o.guifont = "FantasqueSansM Nerd Font:h12"
 vim.opt.linespace = 0
+
+-- Neovide settings
+-- g:neovide_transparency should be 0 if you want to unify transparency of content and title bar.
+vim.g.neovide_transparency = 0.9
+vim.g.neovide_window_blurred = true
+vim.g.neovide_floating_blur_amount_x = 6.0
+vim.g.neovide_floating_blur_amount_y = 6.0
+vim.g.neovide_cursor_animation_length = 0.13
+vim.g.neovide_cursor_trail_size = 0.8
+vim.g.neovide_cursor_animate_in_insert_mode = true
+vim.g.neovide_cursor_vfx_mode = "railgun"
 
 require("lazy").setup({
   spec = {
